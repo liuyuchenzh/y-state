@@ -23,7 +23,7 @@ const option = {
     {
       name: 'a',
       value: 1,
-      watch(oldValue, newValue) {
+      watch(newValue, oldValue) {
         console.log('old', oldValue, 'new', newValue)
       }
     }
