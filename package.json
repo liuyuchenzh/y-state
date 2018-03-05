@@ -1,7 +1,7 @@
 {
   "name": "y-state",
   "version": "1.0.0",
-  "description": "state manager",
+  "description": "state manager (data manager)",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "module": "lib/es/index.js",
@@ -10,5 +10,16 @@
   "scripts": {
     "build": "tsc",
     "es": "tsc --module ES6 --outDir ./lib/es -d false -t ES6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuyuchenzh/y-state.git"
+  },
+  "keywords": [
+    "y-state"
+  ],
+  "bugs": {
+    "url": "https://github.com/liuyuchenzh/y-state/issues"
+  },
+  "homepage": "https://github.com/liuyuchenzh/y-state#readme"
 }
