@@ -1,0 +1,14 @@
+{
+  "name": "y-state",
+  "version": "1.0.0",
+  "description": "state manager",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "module": "lib/es/index.js",
+  "author": "Yuchen Liu",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "es": "tsc --module ES6 --outDir ./lib/es -d false -t ES6"
+  }
+}
