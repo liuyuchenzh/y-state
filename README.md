@@ -1,5 +1,7 @@
 # y-state
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/liuyuchenzh/y-state.svg)](https://greenkeeper.io/)
+
 ## Intro
 
 Simple implementation of state manager (data manager).
